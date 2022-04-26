@@ -1,0 +1,385 @@
+body{
+	background:#FFFFFF;
+}	
+h1{
+	color: #045FB4;
+	font-family: arial;
+	font-size: 50px;
+	text-align: center;
+}
+h3{
+	color: #000000;
+	font-family: arial;
+	font-size: 40px;
+	text-align: center;
+}	
+p{
+	color: #3B170B;
+	font-family: time new roman;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+/* Esta clase es para centrar y comodar la tabla de hipervinculos de la pagina principal*/
+.sin1{
+	border-style:solid;
+	border-radius:10px;	
+	background-color:#D8D8D8;
+	border:1;
+	height:20%;
+	width: 100%;
+}
+.colores{
+	background-color:#D8D8D8;
+}
+/*este apartado es para el largo y ancho de las fotos de la pagina principal*/
+.img{
+	width:500px;
+	height:650px;
+}
+.img3{
+	width:90%;
+	height:60%;
+	margin:5 auto;
+}
+.img4{
+	width:140px;
+}
+/* Este apartado es para la tabla del principio de las paginas secundarias*/
+.sin{
+	margin:5 auto;
+	border-style:solid;
+	border-radius:10px;
+	border-color:#000000;
+	border:1;
+	background-color: #FFFFFF;
+	height:20%;
+	width:100%;
+}
+.sin2{
+	border-style:solid;
+	border-radius:10px;
+	border-color:#000000;
+	border:1;
+	background-color: #FFFFFF;
+	height:20%;
+	width:100%;
+}
+.img5{
+	width:300px;
+}
+.img6{
+	width:100px;
+	height:100px;
+}
+/* Esta clase es para agregar poner un recuadro al encabezado y los derechos de autor de cada pagina*/
+div{
+}
+.div1{
+	background:#EFFBFB;
+	border:2;
+	border-radius:10px;
+	border-style:solid;
+	border-color:#EFFBFB;
+	margin: 6 auto;
+	height:13%;
+	width:100%;
+}
+.div2{
+	background:#FFFFFF;
+	border:2;
+	border-radius:10px;
+	border-style:solid;
+	border-color:#045FB4;
+	margin: 6 auto;
+	height:23%;
+	width:100%;
+}
+/* Esta clase es para las tablas de la pagina de historia*/
+.tableh1{
+	
+	height: 30%;
+	width: 100%;
+	border-style:transparent;
+	border-color: transparent;
+}
+.apartado1{
+	color: #045FB4;
+	font-family:arial;
+	font-size: 25px;
+	text-align: left;
+	font-weight: bold;
+	width:65%;
+}
+.apartado2{
+	width:35%;
+}
+.tableh2{
+	color: #045FB4;
+	font-family: Arial;
+	font-size: 25px;
+	text-align: left;
+	font-weight: bold;
+	height: 30%;
+	width: 100%;
+	border-color: #311601;
+}
+/* Esta clase es para poner border, color, centrar la tabla de productos*/
+.table1{
+	margin:3 auto;
+	color: #000000;
+	font-family:arial;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	height: 90%;
+	width: 90%;
+	border-color: #000000;
+	border:2;
+	border-style: solid;
+	border-collapse:collapse;
+	background-color:#FFFFFF;
+}
+.renglon{
+	margin:3 auto;
+	background-color: #D8D8D8;
+	font-family:arial;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	height: 90%;
+	width: 90%;
+	border-color: #000000;
+	border:2;
+	border-style: solid;
+	border-collapse:collapse;
+}
+.bordes1{
+	border-style: solid;
+	border:2;
+	border-color: #000000;
+	background-color:#F6CECE;
+}
+.columna{
+	border-style: solid;
+	border:2;
+	border-color: #000000;
+	background-color:#E0F8F7;
+}
+.fonybor{
+	border-style: solid;
+	border:2;
+	border-color: #000000;
+	background-color:#FFFFFF;
+}
+.img7{
+	height:600px;
+	width:300;
+}
+.img7-1{
+	height:600px;
+	width:500;
+}
+.img7-2{
+	height:635px;
+	width:400;
+}
+.img8.{
+	height:600px;
+	width:700px;
+}
+.imgps{
+	width:250px;
+}
+.caja{
+	height:1000px;
+	width:555px;
+	background:#FFFFFF;
+	border-radius:10px;
+	border:1px solid #000000;
+	margin:5px;
+	color:black;
+	text-align:center;
+	font-family:time new roman;
+	display:inline-block;
+}
+.caja2{
+	height:710px;
+	width:555px;
+	border-radius:10px;
+	background:#FFFFFF;
+	border:1px solid #000000;
+	margin:5px;
+	color:black;
+	text-align:center;
+	font-family:time new roman;
+	display:inline-block;
+}
+.caja2:hover{
+			/* x y radio color*/
+	box-shadow:0 0 10px blue;
+	/*escala de tamaño de la caja*/
+	transform:scale(1.3,1.3);			
+}
+.caja:hover{
+			/* x y radio color*/
+	box-shadow:0 0 10px #3B240B;
+	/*escala de tamaño de la caja*/
+	transform:scale(1.3,1.3);			
+}
+.caja-texto{
+	padding-bottom:5px;
+	padding-top:4px;
+	font-size:30px;
+	color:#0174DF;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:25px;
+	color:#000000;
+}
+.div-productos{
+	background:#D8D8D8;
+	border:2;
+	border-radius:10px;
+	border-style:solid;
+	border-color:#D8D8D8;
+	margin: 6 auto;
+	height:160%;
+	width:100%;
+}
+.div-productos2{
+	background:#D8D8D8;
+	border:2;
+	border-radius:10px;
+	border-style:solid;
+	border-color:#D8D8D8;
+	margin: 5 auto;
+	height:29%;
+	width:100%;
+}
+.div-productos3{
+	background:#D8D8D8;
+	border:2;
+	border-radius:10px;
+	border-style:solid;
+	border-color:#D8D8D8;
+	margin: 5 auto;
+	height:32%;
+	width:100%;
+}
+.div-productos4{
+	background:#D8D8D8;
+	border:2;
+	border-radius:10px;
+	border-style:solid;
+	border-color:#D8D8D8;
+	margin: 5 auto;
+	height:34%;
+	width:100%;
+}
+.div-productos5{
+	background:#D8D8D8;
+	border:2;
+	border-radius:10px;
+	border-style:solid;
+	border-color:#D8D8D8;
+	margin: 5 auto;
+	height:39%;
+	width:100%;
+}
+.tableps{
+		width:95%;
+		margin:8 auto;
+		border-radius:10px;
+		border:transparent;
+		background:#FFFFFF;
+}
+/* Esta clase es para agregar color al texto, centrar y agrgar color a la tabla de ventas*/
+.table3{
+	margin:3 auto;
+	font-family: time new roman;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	height: 90%;
+	width: 90%;
+	border-color: #000000;
+	border:2;
+	border-style: solid;
+	border-collapse:collapse;
+}
+.columna1{
+	border-style: solid;
+	border:2;
+	border-color: #311601;
+	background-color:#F2F5A9;
+}
+.columna2{
+	border-style: solid;
+	border:2;
+	border-color: #311601;
+	background-color:#F3E2A9;
+}
+.columna3{
+	border-style: solid;
+	border:2;
+	border-color: #311601;
+	background-color:#F5D0A9;
+}
+.columna4{
+	border-style: solid;
+	border:2;
+	border-color: #311601;
+	background-color:#F5BCA9;
+}
+.columna5{
+	border-style: solid;
+	border:2;
+	border-color: #311601;
+	background-color:#F5A9A9;
+}
+.bordes{
+	border-style: solid;
+	border:2;
+	border-color: #311601;
+	background-color:#FFFFFF; 
+}
+/* Esta clase es para centrar el texto y la tabla asi como el color de letra en la tabla de la pagina de contacto*/
+.contac{
+	margin: 5 auto;
+	border-collapse: collapse;
+	color: #000000;
+	font-family:arial;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	height: 25%;
+	width: 27%;
+	border-color: #000000;
+	border:2;
+	border-style: solid;
+	background-color:#FFFFFF;
+}
+.columna6{
+	border-style: solid;
+	border:2;
+	border-color: #311601;
+	background-color:#F7F2E0;
+}
+/*Esta clase es para los encabezados de la tabla de contacto*/
+.divc{
+	background:#E0F8F7;
+	border:1;
+	border-radius:10px;
+	border-style:solid;
+	border-color:#3B170B;
+	height:13%;
+	width:22%;
+	margin:5 auto;
+}
+
+
+
